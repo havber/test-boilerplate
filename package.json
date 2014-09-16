@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "html-test": "./node_modules/casperjs/bin/casperjs ./test/*.js",
+    "html-test": "./node_modules/casperjs/bin/casperjs ./test-html/*.js",
     "js-test": "./node_modules/karma/bin/karma start"
   },
   "devDependencies": {
