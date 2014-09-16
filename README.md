@@ -4,7 +4,7 @@ Boilerplate for Web-projects set up with casperjs for HTML-testing and karma tes
 
 ###Installation
 ```bash
-$ git clone git@githib.com:havber/test-boilerplate.git
+$ git clone git@github.com:havber/test-boilerplate.git
 ```
 ```bash
 $ cd test-boilerplate
