@@ -13,3 +13,8 @@ and
 ```bash
 $ npm install
 ```
+
+###Run tests
+For html testing, run the casperjs tests with ```$ npm run html-test```.
+
+For js-testing, start the karma test-runner with ```$ npm run js-test```.
