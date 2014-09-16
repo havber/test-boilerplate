@@ -1,7 +1,13 @@
-var casper = require('casper').create();
+var assert = require('chai').assert;
 
-casper.start('http://localhost:8000', function() {
-    this.echo(this.getTitle());
+describe('Frontpage', function() {
+    before(function() {
+        casper.start('http://localhost:8000')
+    });
+
+    it('should have correct title', function() {
+        casper.then(function() {
+            assert.equal('CasperJS test', this.getTitle());
+        });
+    });
 });
-
-casper.run();

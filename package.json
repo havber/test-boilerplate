@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "html-test": "./node_modules/casperjs/bin/casperjs ./test-html/*.js",
+    "html-test": "./node_modules/mocha-casperjs/bin/mocha-casperjs test-html/*.js",
     "js-test": "./node_modules/karma/bin/karma start"
   },
   "devDependencies": {
@@ -12,6 +12,7 @@
     "karma-osx-reporter": "^0.1.0",
     "karma-phantomjs-launcher": "^0.1.4",
     "karma-spec-reporter": "0.0.13",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "mocha-casperjs": "^0.5.2"
   }
 }
